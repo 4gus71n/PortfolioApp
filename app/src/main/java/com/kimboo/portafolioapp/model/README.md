@@ -1,0 +1,1 @@
+All the model classes serialized/deserializaed through GSON must go inside this package.

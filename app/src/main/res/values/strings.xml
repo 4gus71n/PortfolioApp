@@ -1,0 +1,14 @@
+<resources>
+    <!-- strings -->
+    <string name="app_name">Agu\'s Portfolio</string>
+    <string name="subtitle">Android developer</string>
+    <string name="name">Agustin Larghi</string>
+    <string name="skills_fragment_title">Techs</string>
+    <string name="about_me_fragment_title">About me</string>
+    <string name="working_experience_fragment_title">Working experience</string>
+    <string name="placeholder_from">From </string>
+    <string name="placeholder_until"> until </string>
+    <string name="lorem_ipsum">asdasdasda</string>
+    <string name="gain_exp_title">What I learn from this job?</string>
+    <string name="description_title">Description:</string>
+</resources>

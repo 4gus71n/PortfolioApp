@@ -1,0 +1,1 @@
+All the dependency injection modules or components must go inside this package.

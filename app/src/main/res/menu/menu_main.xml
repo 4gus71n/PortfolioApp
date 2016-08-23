@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.main.view.MainActivity">
+
+    <item android:id="@+id/menu_item_stackoverflow"
+        android:icon="@drawable/ic_stackoverflow"
+        app:showAsAction="always"
+        android:title="StackOverflow" />
+
+    <item android:id="@+id/menu_item_github"
+        android:icon="@drawable/ic_github"
+        app:showAsAction="always"
+        android:title="Github" />
+
+    <item android:id="@+id/menu_item_linkedin"
+        android:icon="@drawable/ic_linkedin"
+        app:showAsAction="always"
+        android:title="Linkedin" />
+</menu>
