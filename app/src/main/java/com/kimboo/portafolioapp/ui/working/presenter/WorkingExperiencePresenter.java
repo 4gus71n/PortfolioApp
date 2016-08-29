@@ -49,4 +49,9 @@ public class WorkingExperiencePresenter extends DefaultSupportFragmentLightCycle
                 .subscribe(workingExperienceSubscriber);
     }
 
+    //region Presenter-View Interface
+    public static interface WorkingExperience {
+        void loadWorkingExperienceList(List<WorkExperience> workExperienceList);
+    }
+    //endregion
 }

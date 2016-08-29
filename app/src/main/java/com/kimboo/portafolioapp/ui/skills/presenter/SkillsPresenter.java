@@ -50,4 +50,10 @@ public class SkillsPresenter extends DefaultSupportFragmentLightCycle<SkillsFrag
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(skillsSubscriber);
     }
+
+    //region Presenter-View Interface
+    public static interface Skills {
+        void loadSkillsList(List<Skill> skills);
+    }
+    //endregion
 }

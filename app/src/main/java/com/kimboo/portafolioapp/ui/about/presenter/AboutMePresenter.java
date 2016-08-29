@@ -47,4 +47,9 @@ public class AboutMePresenter extends DefaultSupportFragmentLightCycle<AboutMeFr
                 .subscribe(aboutMeSubscriber);
     }
 
+    //region Presenter-View Interface
+    public static interface AboutMe {
+        void loadAboutMe(Me me);
+    }
+    //endregion
 }

@@ -12,7 +12,6 @@ import com.kimboo.portafolioapp.PortfolioApp;
 import com.kimboo.portafolioapp.R;
 import com.kimboo.portafolioapp.model.Skill;
 import com.kimboo.portafolioapp.ui.skills.adapters.SkillsAdapter;
-import com.kimboo.portafolioapp.ui.skills.presenter.Skills;
 import com.kimboo.portafolioapp.ui.skills.presenter.SkillsPresenter;
 import com.soundcloud.lightcycle.LightCycle;
 import com.soundcloud.lightcycle.LightCycleSupportFragment;
@@ -25,7 +24,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SkillsFragment extends LightCycleSupportFragment<SkillsFragment> implements
-        Skills {
+        SkillsPresenter.Skills {
 
     //region Skills implementation
     @Override

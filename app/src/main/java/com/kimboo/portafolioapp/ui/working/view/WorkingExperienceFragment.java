@@ -12,7 +12,6 @@ import com.kimboo.portafolioapp.PortfolioApp;
 import com.kimboo.portafolioapp.R;
 import com.kimboo.portafolioapp.model.WorkExperience;
 import com.kimboo.portafolioapp.ui.working.adapter.WorkingExperienceAdapter;
-import com.kimboo.portafolioapp.ui.working.presenter.WorkingExperience;
 import com.kimboo.portafolioapp.ui.working.presenter.WorkingExperiencePresenter;
 import com.soundcloud.lightcycle.LightCycle;
 import com.soundcloud.lightcycle.LightCycleSupportFragment;
@@ -29,7 +28,7 @@ import butterknife.ButterKnife;
  * Email: agustin.tomas.larghi@gmail.com
  */
 public class WorkingExperienceFragment extends LightCycleSupportFragment<WorkingExperienceFragment> implements
-        WorkingExperience {
+        WorkingExperiencePresenter.WorkingExperience {
 
     //region WorkingExperience implementation
     @Override

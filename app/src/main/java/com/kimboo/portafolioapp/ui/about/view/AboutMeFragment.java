@@ -12,7 +12,6 @@ import android.widget.TextView;
 import com.kimboo.portafolioapp.PortfolioApp;
 import com.kimboo.portafolioapp.R;
 import com.kimboo.portafolioapp.model.Me;
-import com.kimboo.portafolioapp.ui.about.presenter.AboutMe;
 import com.kimboo.portafolioapp.ui.about.presenter.AboutMePresenter;
 import com.soundcloud.lightcycle.LightCycle;
 import com.soundcloud.lightcycle.LightCycleSupportFragment;
@@ -26,7 +25,7 @@ import butterknife.ButterKnife;
  * Created by Agustin Tomas Larghi on 21/08/2016.
  * Email: agustin.tomas.larghi@gmail.com
  */
-public class AboutMeFragment extends LightCycleSupportFragment<AboutMeFragment> implements AboutMe {
+public class AboutMeFragment extends LightCycleSupportFragment<AboutMeFragment> implements AboutMePresenter.AboutMe {
 
     //region AboutMe implementation
     @Override
