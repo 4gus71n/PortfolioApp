@@ -30,9 +30,9 @@ public class PortfolioFragmentAdapter extends FragmentStatePagerAdapter {
             case 0:
                 return context.getString(R.string.about_me_fragment_title);
             case 1:
-                return context.getString(R.string.working_experience_fragment_title);
-            case 2:
                 return context.getString(R.string.skills_fragment_title);
+            case 2:
+                return context.getString(R.string.working_experience_fragment_title);
         }
         return "";
     }
