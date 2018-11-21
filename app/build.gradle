@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.kimboo.portafolioapp"
         minSdkVersion 15
-        targetSdkVersion 24
-        versionCode 2
-        versionName "2.0"
+        targetSdkVersion 28
+        versionCode 3
+        versionName "3.0"
     }
 
     buildTypes {
