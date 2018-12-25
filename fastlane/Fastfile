@@ -25,7 +25,7 @@ platform :android do
     supply(
       package_name: "com.kimboo.portafolioapp",
       track: "alpha",
-      track_promote_to: "beta"
+      track_promote_to: "beta",
       apk: "/home/circleci/src/app/build/outputs/apk/release/app-release.apk",
       skip_upload_metadata: true,
       skip_upload_images: true,
