@@ -1,2 +1,2 @@
-json_key_file("") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+json_key_file("api-5659424117000331550-96806-f23b73a1d27f.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
 package_name("com.kimboo.portafolioapp") # e.g. com.krausefx.app

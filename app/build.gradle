@@ -27,6 +27,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField "String", "BASE_HOST", "\"http://private-86d116-portfolioapp.apiary-mock.com/\""
+            signingConfig signingConfigs.release
         }
     }
 
