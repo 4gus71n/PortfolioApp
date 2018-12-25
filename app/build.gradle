@@ -10,6 +10,15 @@ android {
         versionName "5.0"
     }
 
+    signingConfigs {
+        release {
+            storeFile file("keystore.jks")
+            storePassword '123qweasd'
+            keyAlias 'alarghi'
+            keyPassword '4gustinsito92!'
+        }
+    }
+
     buildTypes {
         debug {
             buildConfigField "String", "BASE_HOST", "\"http://private-86d116-portfolioapp.apiary-mock.com/\""

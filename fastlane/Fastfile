@@ -21,13 +21,7 @@ platform :android do
     gradle(
         task: "assemble",
         build_type: "Release",
-        print_command: false,
-        properties: {
-            "android.injected.signing.store.file" => ".signing/keystore.jks",
-            "android.injected.signing.store.password" => "123qweasd",
-            "android.injected.signing.key.alias" => "alarghi",
-            "android.injected.signing.key.password" => "4gustinsito92!",
-        }
+        print_command: false
     )
 
     # Using `GRADLE_APK_OUTPUT_PATH` to make sure we are only
