@@ -19,12 +19,13 @@ platform :android do
   desc "Deploy a new version to the Google Play"
   lane :deploy_to_play_store do
     gradle(task: 'clean')
-    gradle(task: 'assembleRelease')
+    gradle(task: "assemble", build_type: "Release")
 
     # Uploading to Google Play
     supply(
       package_name: "com.kimboo.portafolioapp",
-      track: "beta",
+      track: "alpha",
+      apk: "app/build/outputs/apk/app-release.apk",
       skip_upload_metadata: true,
       skip_upload_images: true,
       skip_upload_screenshots: true
