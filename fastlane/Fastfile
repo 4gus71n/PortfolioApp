@@ -18,6 +18,7 @@ default_platform(:android)
 platform :android do
   desc "Deploy a new version to the Google Play"
   lane :deploy_to_play_store do
+    gradle(task: 'clean')
     gradle(task: 'assembleRelease')
 
     # Uploading to Google Play
