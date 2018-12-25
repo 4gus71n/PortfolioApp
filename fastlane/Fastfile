@@ -24,7 +24,7 @@ platform :android do
     # Uploading to Google Play
     supply(
       package_name: "com.kimboo.portafolioapp",
-      track: "alpha",
+      track: "beta",
       apk: "/home/circleci/src/app/build/outputs/apk/release/app-release.apk",
       skip_upload_metadata: true,
       skip_upload_images: true,
