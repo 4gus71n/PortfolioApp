@@ -16,23 +16,35 @@
 default_platform(:android)
 
 platform :android do
-  desc "Runs all the tests"
-  lane :test do
-    gradle(task: "test")
-  end
-
-  desc "Submit a new Beta Build to Crashlytics Beta"
-  lane :beta do
-    gradle(task: "clean assembleRelease")
-    crashlytics
-  
-    # sh "your_script.sh"
-    # You can also use other beta testing services here
-  end
-
   desc "Deploy a new version to the Google Play"
-  lane :deploy do
-    gradle(task: "clean assembleRelease")
-    upload_to_play_store
+  lane :deploy_to_play_store do
+    gradle(
+        task: "assemble",
+        build_type: "Release",
+        print_command: false,
+        properties: {
+            "android.injected.signing.store.file" => ".signing/keystore.jks",
+            "android.injected.signing.store.password" => "123qweasd",
+            "android.injected.signing.key.alias" => "alarghi",
+            "android.injected.signing.key.password" => "4gustinsito92!",
+        }
+    )
+
+    # Using `GRADLE_APK_OUTPUT_PATH` to make sure we are only
+    # getting one APK (sometimes an debug and release are build)
+    # This gets the release
+    apk_path = Actions.lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]
+
+    # Uploading to Google Play
+    # These are arguments I usually use
+    # I upload to the "beta" track so it doesn't get automatically released
+    supply(
+      apk: apk_path,
+      package_name: 'com.kimboo.portafolioapp',
+      track: 'alpha',
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
   end
 end

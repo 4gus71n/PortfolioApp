@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "api-5659424117000331550-96806",
+  "private_key_id": "f23b73a1d27fa5e26000832923a7c5fa1722631f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqNp2VYgXmdYJR\nmB4ccv9CcX7JVMlpd1nbZeGwzlGDX+mGbteN9G6I/JPkSpKbZkiD4c/0xQrzsGwa\n/7f2VZoUa2qs6pwNBrfHVdC4CZWFvh8YWeaPCuFymXvAlKMGvRlxX7wm7W14txv2\n8sOYtSOllQctesVE6Wcx+ju6bfvMyftPmhTliMf6ckCdvoiuFQE6MP6/6x02OuuN\nuLO47wwfRQA3/Ppf3sv9obl6qCpsdTPvzeH55huoynVbm5lt2w5cK6xpJhGtnVPR\nZNyET/am0DXZm21p07l/fMqtG1qH9+r6/XjBj5iabygYieDMQOxAtAd8yMHMM3TI\nc1Bwu5iBAgMBAAECggEAGKwxVsL5BKPfOlaTdB+TMp1i+b9e2/kfPvcwqhaYqDNn\nP+5MiS4iNkcZD4wOXj+K9AWacD9+S+k0cmFuLWMmd3PukuwFp2RkOp0M08XH37Vk\nVSegN6HQdh0bXBnvhlLeH5n3RalAJ1xbeFtOJjzeKD/xj2fECoN5SubxG3VFJ4pD\n41AgPgoRDX2RZNle8oQchoK6ksgNerBs7xZ09U7dyCRfz+ANssQjNltiAuFOF595\ntW5aOIQiTM9bISlUfqrLL7qStrWy2oM/00iaFa0d3TfMP5IJF7iYFKYwPDFb0XhI\nt8N0Kcp2a2tZuzHkPaIjFRn95gGBFrB7qw9f/cVPlQKBgQDui6yt1pE2AKEI2vkv\nIu30Nv+NOk+k9ogDDuPMkVVM1dTiJvFCc9EeDMSFDGq6bqjqxKZ6AJ8JpW7jUV8E\nlkVDU6NftcV9c3EAZEYanVPMRBivo7j1KvL2a7bbWClJfX5riKQ+3MQ1TM8CXjIG\njBuawpDVDpo5/B5QFDl3hUgA0wKBgQC2qvkMGC8eAJLTnBIKiwsM5+fWGzCDicOu\nIShjONorUorTEA1kSdHtOFwhY5iKnkciXZKUelm5Opoef6Wk6ZHhbBqbqR3nFm2M\ntoZa05Op1UiFRC/B8Bbsq35xso6XT58IIt+TDyGigloGGAaS2/yW0LkcR2kGFmAW\nAvMmy+MM2wKBgERnZx/+XGuY6JSqfjQnFwcl0khERVxvmXcPCQG7VzOOSdqEAkDl\nBz1PufbRJbXKT8PqmjZ4ASL5/n9O8SlWkgwJatriO/yKYwgSuQueu83iZRXQpBQh\nucQyBSCG+mfphZv+deLU2arTGLV8H2pDORM64d9GrbEc+/BIrGX6oTgjAoGBAIGP\nRLNKV+jsuTczpCwsMHtH5MycXk19offYdr/hbAR8OBC5evYd0bJyXg4kiOYQmx2J\nxtRe71KMeRGWsdMFAz4iocC0M4xbAPpj32l+VWaI6zXyhfkFJA1bGYTlA3PYulBY\nA8FXYyDTWaymz8rMExyZECI5mAkER8R09ScYR4MvAoGBALwgdQUCSNVQoDXYYy4m\nGASjVcbOwpJ6mWs0Zvrr1cS4Kh7LLx9GXJHcRBTIi1/yQFIeIYcX+dpl9M5T8WX9\nnlnJM159/xhdkNxHBDluMwbEA5sMu+8B32rcwZHHX+Crlm0Hz4KabIhxTBNGZBJU\nRTfOyEmiCRetvFEALUPCLYlu\n-----END PRIVATE KEY-----\n",
+  "client_email": "fastlane-portfolio-app@api-5659424117000331550-96806.iam.gserviceaccount.com",
+  "client_id": "114522219306068551454",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fastlane-portfolio-app%40api-5659424117000331550-96806.iam.gserviceaccount.com"
+}
