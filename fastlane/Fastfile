@@ -18,23 +18,10 @@ default_platform(:android)
 platform :android do
   desc "Deploy a new version to the Google Play"
   lane :deploy_to_play_store do
-    gradle(
-        task: "assemble",
-        build_type: "Release",
-        print_command: false
-    )
-
-    # Using `GRADLE_APK_OUTPUT_PATH` to make sure we are only
-    # getting one APK (sometimes an debug and release are build)
-    # This gets the release
-    apk_path = Actions.lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]
+    gradle(task: 'assembleRelease')
 
     # Uploading to Google Play
-    # These are arguments I usually use
-    # I upload to the "beta" track so it doesn't get automatically released
     supply(
-      apk: apk_path,
-      package_name: 'com.kimboo.portafolioapp',
       track: 'alpha',
       skip_upload_metadata: true,
       skip_upload_images: true,
