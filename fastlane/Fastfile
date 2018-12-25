@@ -23,8 +23,7 @@ platform :android do
     # Uploading to Google Play
     supply(
       package_name: "com.kimboo.portafolioapp",
-      track: "alpha",
-      track_promote_to: "beta",
+      track: "beta",
       skip_upload_metadata: true,
       skip_upload_images: true,
       skip_upload_screenshots: true
